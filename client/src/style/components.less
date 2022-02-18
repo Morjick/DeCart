@@ -1,0 +1,25 @@
+//main:main.less
+
+.modal_load_sidebar {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 80px;
+  left: 0;
+  background: rgb(82, 253, 96);
+  border-radius: 8px;
+  border: 1px solid @gray;
+  z-index: 1000;
+  transform: translateX(-300px);
+}
+
+.modal_load_sidebar.modal_load_sidebar_active {
+  transform: translateX(0);
+}
+
+.modal_load_sidebar_iiner {
+  padding: 15px 5px;
+}
+
+//this.posterArray.center.lng +0.5
+//this.posterArray.center.lat +0.25

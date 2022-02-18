@@ -1,0 +1,33 @@
+{
+  "name": "decart",
+  "version": "1.7.1",
+  "description": "create posters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "server": "nodemon app.js",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \" npm run server \" \" npm run client\""
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "mapx"
+  ],
+  "author": "morjick <matvey-khramov@invox.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ba64": "^3.0.9",
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "image-to-pdf": "^1.0.0",
+    "images-to-pdf": "^1.0.3",
+    "jspdf": "^2.3.1",
+    "mapbox-gl": "^2.4.1",
+    "mongoose": "^5.13.7",
+    "node-poppler": "^4.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
